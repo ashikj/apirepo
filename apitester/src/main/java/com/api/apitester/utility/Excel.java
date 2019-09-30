@@ -112,7 +112,7 @@ public class Excel {
     				Sheet s = wb.getSheet(sheetName);
     				Row r = s.getRow(rowNum);
     				Cell c = r.createCell(cellNum);
-    				c.setCellType(Cell.CELL_TYPE_STRING);
+    				//c.setCellType(Cell.CELL_TYPE_STRING);
     				c.setCellValue(val);
     				FileOutputStream fos = new FileOutputStream("C:\\Users\\ashjagad\\Documents\\apitester\\apitester\\testdata.xlsx");
     				wb.write(fos);
