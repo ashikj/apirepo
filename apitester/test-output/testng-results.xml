@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="75872" started-at="2019-09-25T11:24:36Z" finished-at="2019-09-25T11:25:52Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="75872" started-at="2019-09-25T11:24:36Z" finished-at="2019-09-25T11:25:52Z">
+      <class name="com.api.apitester.RestAPIRun">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.api.apitester.RestAPIRun@57829d67]" name="beforeClass" is-config="true" duration-ms="1043" started-at="2019-09-25T16:54:36Z" finished-at="2019-09-25T16:54:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="createApi()[pri:0, instance:com.api.apitester.RestAPIRun@57829d67]" name="createApi" duration-ms="57069" started-at="2019-09-25T16:54:37Z" finished-at="2019-09-25T16:55:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createApi -->
+        <test-method status="PASS" signature="testPosts()[pri:0, instance:com.api.apitester.RestAPIRun@57829d67]" name="testPosts" duration-ms="17733" started-at="2019-09-25T16:55:34Z" finished-at="2019-09-25T16:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPosts -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.api.apitester.RestAPIRun@57829d67]" name="afterClass" is-config="true" duration-ms="10" started-at="2019-09-25T16:55:52Z" finished-at="2019-09-25T16:55:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.api.apitester.RestAPIRun -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
